@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #2d3142;
+    --color-secondary:#adacb5;
+}
+
+@layer utilities {
+    .text-color {
+        color: var(--color-primary);
+    }
+    .bg-color {
+        background-color: var(--color-secondary);
+    }
+    .main-section-padding-x {
+        @apply px-8;
+    }
+}

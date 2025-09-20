@@ -2,21 +2,19 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className='w-full h-full bg-gray-200  px-6 '>
+    <nav className='w-full h-full py-4 main-section-padding-x '>
         <div className="hidden h-full md:flex justify-between items-center">
-        <div className='text-2xl leading-tight text-gray-700 font-bold uppercase flex flex-col space-y-3'>
+        <div className='text-2xl leading-tight text-gray-700  font-bold uppercase flex flex-col space-y-3'>
             <div className='mb-0 p-0'>Biniyam</div>
             <div className='-mt-3 '>girma alemu</div>
         </div>
-            <ul className='flex justify-center items-center gap-16 font-semibold '>
+            <ul className='flex justify-center items-center space-x-46 font-semibold '>
                 <li><span>[</span><a href="">Home</a><span>]</span></li>
                 <li><span>[</span><a href="">About</a><span>]</span></li>
                 <li><span>[</span><a href="">Project</a><span>]</span></li>
             </ul>
         <div>
-            <button className='bg-gray-700 py-2 px-4 rounded-lg text-white font-semibold hover:bg-gray-600 transition-all duration-300 ease-in-out'>Contact 
-                <span></span>
-            </button>
+            <a href="" className='uppercase font-semibold underline text-color pr-4'>contact</a>
         </div>
         </div>
 
