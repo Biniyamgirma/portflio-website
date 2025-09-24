@@ -2,19 +2,32 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='min-w-full flex justify-between'>
-        <h1 className='uppercase text-2xl text-white'>biniyam girma</h1>
-        <div className='bg-[#5F5F5F29]'>
-            <div className='flex justify-between w-full'>
-            <div className='size-24 rounded-full flex justify-center items-center'>
-                
-            </div>
-            <h2 className='text-sm text-[#727272] uppercase'>
-                Biniyam Girma
-            </h2>
-            </div>
-        </div>
-    </div>
+   <nav className="flex h-[250px] max-w-full items-center justify-center bg-gray-950">
+  <div class="flex h-full w-16 items-center rounded-full bg-[#5F5F5F29]">
+      <ul className=" flex h-95/100 w-full flex-col items-center justify-between ">
+        <li className="size-12 rounded-full  flex justify-center items-center">
+          <svg className="max-w-50/100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 12H17M8 8.5C8 8.5 9 9 10 9C11.5 9 12.5 8 14 8C15 8 16 8.5 16 8.5M8 15.5C8 15.5 9 16 10 16C11.5 16 12.5 15 14 15C15 15 16 15.5 16 15.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#44444E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </li>
+        <li className="size-12 rounded-full bg-[#8C8C8C29] flex justify-center items-center">
+          <svg className="max-w-50/100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 12H17M8 8.5C8 8.5 9 9 10 9C11.5 9 12.5 8 14 8C15 8 16 8.5 16 8.5M8 15.5C8 15.5 9 16 10 16C11.5 16 12.5 15 14 15C15 15 16 15.5 16 15.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#44444E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </li>
+        <li className="size-12 rounded-full bg-[#8C8C8C29] flex justify-center items-center">
+          <svg className="max-w-70/100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 12H17M8 8.5C8 8.5 9 9 10 9C11.5 9 12.5 8 14 8C15 8 16 8.5 16 8.5M8 15.5C8 15.5 9 16 10 16C11.5 16 12.5 15 14 15C15 15 16 15.5 16 15.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </li>
+        <li className="size-12 rounded-full bg-[#8C8C8C29] flex justify-center items-center">
+          <svg className="max-w-50/100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 12H17M8 8.5C8 8.5 9 9 10 9C11.5 9 12.5 8 14 8C15 8 16 8.5 16 8.5M8 15.5C8 15.5 9 16 10 16C11.5 16 12.5 15 14 15C15 15 16 15.5 16 15.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </li>
+      </ul>
+  </div>
+</nav>
   )
 }
 
