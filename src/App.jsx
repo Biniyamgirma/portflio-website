@@ -39,14 +39,25 @@ function App() {
   return (
     <div className='relative p-0 m-0' ref={comp}>
         <div id='intro-slider' className='h-screen p-10 bg-gray-50 absolute top-0 left-0 font-roboto z-10 w-full flex flex-col gap-10 tracking-tight'>
-          <h1 id='title-1' className='text-6xl'>Full-stack Developer</h1>
-          <h1 id='title-2' className='text-6xl'>content creater</h1>
-          <h1 id='title-3' className='text-6xl'>webdesigner</h1>
+          <h1 id='title-1' className='text-6xl'>/Full-stack Developer</h1>
+          <h1 id='title-2' className='text-6xl'>/Web Animation Developer</h1>
+          <h1 id='title-3' className='text-6xl'>/Backend Developer</h1>
+          <div className='absolute bottom-20 left-10 w-60/100 h-32'>
+            <p className='text-lg tracking-tight text-gray-700 w-60/100 font-bold  '>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati repudiandae molestiae necessitatibus ea illo? Facilis distinctio veniam inventore eveniet fugit fuga facere, ab beatae repellat vero dolore hic maxime esse? Delectus ipsam ducimus, quae odit ipsum officiis sed quam alias?
+            </p>
+          </div>
+          <div className='absolute bottom-1 right-4 w-30/100 h-120 bg-amber-600'>
+          {/* <img src="" alt="" /> */}
+          </div>
         </div>
         <div className='h-screen flex bg-gray-950 justify-center place-items-center'>
           <h1 ref={welcomRef} id='welcome' className='text-5xl font-bold text-gray-100 font-roboto'>
             Welcom
           </h1>
+          <div className='w-32 h-32'>
+           
+          </div>
         </div>
     </div>
   )
