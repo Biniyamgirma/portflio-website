@@ -51,12 +51,31 @@ function App() {
           {/* <img src="" alt="" /> */}
           </div>
         </div>
-        <div className='h-screen flex bg-gray-950 justify-center place-items-center'>
-          <h1 ref={welcomRef} id='welcome' className='text-5xl font-bold text-gray-100 font-roboto'>
-            Welcom
+        <div class='h-screen flex flex-col bg-gray-950  place-items-center px-12 py-4'>
+   <div class='min-w-full flex justify-between items-center '>
+        <h1 class='uppercase text-xl text-white'>biniyam girma</h1>
+        <div class='bg-[#5F5F5F29] flex justify-center items-center rounded-full'>
+            <div class='flex justify-between w-full p-2'>
+            <div class='size-8 rounded-full flex justify-center items-center bg-gray-700 text-amber-50'>
+                I
+            </div>
+            <h2 class='text-sm text-[#727272] uppercase text-center flex justify-center items-center pl-2'>
+                Biniyam Girma
+            </h2>
+            </div>
+        </div>
+    </div>
+          <div className="flex w-full h-full justify-center items-center">
+            <h1  id='welcome' class='text-5xl font-bold text-gray-100 font-roboto'>
+            Welcom To My Portfolio
           </h1>
-          <div className='w-32 h-32'>
-           
+          </div>
+          <div class="flex space-x-4  h-16 w-full items-center justify-center">
+            <button className="bg-white px-4 py-3 rounded-full">Download resume</button>
+            <button className="border-2 rounded-full border-white text-white px-4 py-3">Contact Me</button>
+          </div>
+          <div className="text-white py-4">
+            scroll down
           </div>
         </div>
     </div>
