@@ -78,6 +78,18 @@ function App() {
             scroll down
           </div>
         </div>
+        <section class="min-h-screen bg-gray-950 px-12">
+<div class="w-full flex justify-center items-center ">
+<img class="max-h-72 object-cover" src="https://images.unsplash.com/photo-1741715661559-6149723ea89a?w=120&dpr=2&h=200&auto=format&fit=crop&q=60&ixid=M3wxMjA3fDB8MXxhbGx8MTR8fHx8fHx8fDE3NTg2OTkwMjh8&ixlib=rb-4.1.0" alt="">
+</div>
+<div class="w-60/100 pt-6">
+  <h1 class="text-9xl text-white">About Me</h1>
+  <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, facere quia quasi quisquam quibusdam fuga odio, eum dicta totam blanditiis dolore officia culpa ullam accusamus, provident facilis ipsam consequatur fugiat?</p>
+</div>
+<!-- <div class="justify-self-end">
+  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores debitis non velit possimus pariatur eaque quidem autem aperiam? Obcaecati, eum voluptatibus sapiente aliquam dolore et repellat, quaerat a porro vel suscipit! Aperiam vitae dolorum cupiditate eum eveniet ullam distinctio nulla?</p> -->
+</div>
+</section>
     </div>
   )
 }
