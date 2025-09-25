@@ -55,27 +55,27 @@ function App() {
         </div>
         <div className='h-screen flex flex-col bg-gray-950  place-items-center px-12 py-4'>
    <div className='min-w-full flex justify-between items-center '>
-        <h1 className='uppercase text-xl text-white'>biniyam girma</h1>
+        <h1 className='uppercase text-xl text-white new-font'>biniyam girma</h1>
         <div className='bg-[#5F5F5F29] flex justify-center items-center rounded-full'>
             <div className='flex justify-between w-full p-2'>
-            <div className='size-8 rounded-full flex justify-center items-center bg-gray-700 text-amber-50'>
+            <div className='new-font size-8 rounded-full flex justify-center items-center bg-gray-700 text-amber-50'>
                 I
             </div>
-            <h2 className='text-[12px] text-[#727272] uppercase text-center flex justify-center items-center px-2'>
+            <h2 className='text-[12px] text-[#727272] uppercase text-center flex justify-center items-center px-2 new-font'>
                 Biniyam Girma
             </h2>
             </div>
         </div>
     </div>
           <div className="flex w-full h-full justify-center items-center">
-            <h1  id='welcome' className='text-5xl font-bold text-gray-100 font-roboto'>
+            <h1  id='welcome' className='text-5xl font-bold text-gray-100 new-font'>
             Welcom To My Portfolio
           </h1>
           <HomeDesc />
           </div>
           <div className="flex space-x-4  h-16 w-full items-center justify-center">
-            <button className="bg-white px-4 py-3 rounded-full">Download resume</button>
-            <button className="border-2 rounded-full border-white text-white px-4 py-3">Contact Me</button>
+            <button className="bg-white px-4 py-3 rounded-full new-font-ibm">Download resume</button>
+            <button className="border-2 rounded-full border-white text-white px-4 py-3 new-font-ibm">Contact Me</button>
           </div>
           <Navbar />
           
@@ -83,13 +83,13 @@ function App() {
             scroll down
           </div>
         </div>
-<section className="min-h-screen bg-gray-950 px-12">
+<section id='About' className="min-h-screen bg-gray-950 px-12">
 <div className="w-full flex justify-center items-center ">
 <img className="max-h-72 object-cover" src="https://images.unsplash.com/photo-1741715661559-6149723ea89a?w=120&dpr=2&h=200&auto=format&fit=crop&q=60&ixid=M3wxMjA3fDB8MXxhbGx8MTR8fHx8fHx8fDE3NTg2OTkwMjh8&ixlib=rb-4.1.0" alt="" />
 </div>
-<div className="w-60/100 pt-6">
-  <h1 className="text-9xl text-white">About Me</h1>
-  <p className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, facere quia quasi quisquam quibusdam fuga odio, eum dicta totam blanditiis dolore officia culpa ullam accusamus, provident facilis ipsam consequatur fugiat?</p>
+<div className="w-60/100 pt-6 ">
+    <h1 className="text-9xl text-white new-font">About Me</h1>
+  <p className="text-white new-font">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, facere quia quasi quisquam quibusdam fuga odio, eum dicta totam blanditiis dolore officia culpa ullam accusamus, provident facilis ipsam consequatur fugiat?</p>
 </div>
 </section>
 </div>

@@ -1,8 +1,22 @@
+@font-face {
+    font-family: 'Syne-VariableFont_wght';
+    src: url('./fonts/Syne-VariableFont_wght.ttf') format('truetype');
+      font-weight: normal; 
+      font-style: normal; 
+}
+@font-face {
+    font-family: 'IBMPlexSans-VariableFont_wdth';
+    src: url('./fonts/IBMPlexSans-VariableFont_wdth,wght.ttf') format('truetype');
+      font-weight: normal; 
+      font-style: normal; 
+}
 @import "tailwindcss";
 
 @theme {
     --color-primary: #2d3142;
     --color-secondary:#adacb5;
+    --font-syne: 'Syne-VariableFont_wght', sans-serif;
+    --font-ibm: 'IBMPlexSans-VariableFont_wdth', sans-serif;
 }
 
 @layer utilities {
@@ -14,5 +28,11 @@
     }
     .main-section-padding-x {
         @apply px-8;
+    }
+    .new-font {
+        font-family: var(--font-syne);
+    }
+    .new-font-ibm {
+        font-family: var(--font-ibm);
     }
 }
