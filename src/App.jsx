@@ -6,6 +6,7 @@ import HomeDesc from './components/HomeDesc';
 import Projects from './components/Projects';
 import TechSkill from './components/TechSkill';
 import Footer from './components/Footer';
+import Skill from './components/Skill';
 
 function App() {
   const comp = useRef(null);
@@ -76,7 +77,7 @@ function App() {
           </h1>
           <div className='w-[260px] new-font flex flex-col space-y-2 text-wrap border-[#292929] absolute bottom-5 right-5 rounded-s-md border-r-2 pr-8'>
         <h1 className="text-lg flex flex-col justify-end items-end text-white new-font-ibm">Design<span>Inspiration…</span> </h1>
-        <p className="flex flex-col w-auto items-end text-[12px] text-[#717171] new-font-ibm"><span>This portfolio's sleek</span> <span> inspiraion was crafted by ,</span> <span><span className="text-white"><a href="">Onyx Design</a></span> Ethiopia</span> </p>
+        <p className="flex flex-col w-auto items-end text-[12px] text-[#717171] new-font-ibm"><span>This portfolio's sleek</span> <span> design is the inspired from</span> <span><span className="text-white"><a href="">Onyx Design</a></span> Ethiopia</span> </p>
     </div>
           </div>
           <div className="flex space-x-4  h-16 w-full items-center justify-center">
@@ -95,7 +96,12 @@ function App() {
           <p className="text-white new-font-ibm"> I thrive on turning complex problems into elegant, user-focused solutions using modern tools like JavaScript, React, Node.js, and Python. I'm excited to begin my professional career, and I am eager to connect, collaborate, and contribute to a team that builds things that matter.</p>
         </div>
         </section>
+        <TechSkill />
+        <Skill />
         <Footer />
+        <div className='w-full h-[30px] bg-gray-950 flex justify-center items-center border-t-1 border-gray-600'>
+          <p className='text-[#727272]'>copy 2025</p>
+        </div>
 </div>
   );
 }
