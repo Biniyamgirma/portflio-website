@@ -3,6 +3,9 @@ import { gsap } from 'gsap'
 import './App.css'
 import Navbar from './components/Navbar';
 import HomeDesc from './components/HomeDesc';
+import Projects from './components/Projects';
+import TechSkill from './components/TechSkill';
+import Footer from './components/Footer';
 
 function App() {
   const comp = useRef(null);
@@ -45,8 +48,8 @@ function App() {
           <h1 id='title-2' className='text-6xl'>/Web Animation Developer</h1>
           <h1 id='title-3' className='text-6xl'>/Backend Developer</h1>
           <div className='absolute bottom-20 left-10 w-60/100 h-32'>
-            <p className='text-lg tracking-tight text-gray-700 w-60/100 font-bold  '>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati repudiandae molestiae necessitatibus ea illo? Facilis distinctio veniam inventore eveniet fugit fuga facere, ab beatae repellat vero dolore hic maxime esse? Delectus ipsam ducimus, quae odit ipsum officiis sed quam alias?
+            <p className='text-lg tracking-tight text-gray-700 w-60/100 font-bold  new-font-ibm'>
+              Hello, my name is Biniyam Girma. I'm a passionate and solutions-driven Computer Science graduate, dedicated to crafting technology that makes a tangible impact.
             </p>
           </div>
           <div className='absolute bottom-1 right-4 w-30/100 h-120 bg-amber-600'>
@@ -67,11 +70,14 @@ function App() {
             </div>
         </div>
     </div>
-          <div className="flex w-full h-full justify-center items-center">
+          <div className="flex w-full h-full justify-center items-center relative">
             <h1  id='welcome' className='text-5xl font-bold text-gray-100 new-font'>
             Welcom To My Portfolio
           </h1>
-          <HomeDesc />
+          <div className='w-[260px] new-font flex flex-col space-y-2 text-wrap border-[#292929] absolute bottom-5 right-5 rounded-s-md border-r-2 pr-8'>
+        <h1 className="text-lg flex flex-col justify-end items-end text-white new-font-ibm">Design<span>Inspiration…</span> </h1>
+        <p className="flex flex-col w-auto items-end text-[12px] text-[#717171] new-font-ibm"><span>This portfolio's sleek</span> <span> inspiraion was crafted by ,</span> <span><span className="text-white"><a href="">Onyx Design</a></span> Ethiopia</span> </p>
+    </div>
           </div>
           <div className="flex space-x-4  h-16 w-full items-center justify-center">
             <button className="bg-white px-4 py-3 rounded-full new-font-ibm">Download resume</button>
@@ -79,23 +85,19 @@ function App() {
           </div>
           <Navbar />
           
-          <div className="text-white py-4">
-            scroll down
-          </div>
         </div>
-<section id='About' className="min-h-screen bg-gray-950 px-12">
-<div className="w-full flex justify-center items-center ">
-<img className="max-h-72 object-cover" src="https://images.unsplash.com/photo-1741715661559-6149723ea89a?w=120&dpr=2&h=200&auto=format&fit=crop&q=60&ixid=M3wxMjA3fDB8MXxhbGx8MTR8fHx8fHx8fDE3NTg2OTkwMjh8&ixlib=rb-4.1.0" alt="" />
+        <section id='About' className="min-h-screen bg-gray-950 px-12">
+        <div className="w-full flex justify-center items-center ">
+        <img className="max-h-72 object-cover" src="https://images.unsplash.com/photo-1741715661559-6149723ea89a?w=120&dpr=2&h=200&auto=format&fit=crop&q=60&ixid=M3wxMjA3fDB8MXxhbGx8MTR8fHx8fHx8fDE3NTg2OTkwMjh8&ixlib=rb-4.1.0" alt="" />
+        </div>
+        <div className="w-60/100 pt-6 relative">
+            <h1 className="text-9xl text-white new-font">About Me</h1>
+          <p className="text-white new-font-ibm"> I thrive on turning complex problems into elegant, user-focused solutions using modern tools like JavaScript, React, Node.js, and Python. I'm excited to begin my professional career, and I am eager to connect, collaborate, and contribute to a team that builds things that matter.</p>
+        </div>
+        </section>
+        <Footer />
 </div>
-<div className="w-60/100 pt-6 ">
-    <h1 className="text-9xl text-white new-font">About Me</h1>
-  <p className="text-white new-font">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, facere quia quasi quisquam quibusdam fuga odio, eum dicta totam blanditiis dolore officia culpa ullam accusamus, provident facilis ipsam consequatur fugiat?</p>
-</div>
-</section>
-</div>
-
-    
-  )
+  );
 }
 
-export default App
+export default App;
