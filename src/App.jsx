@@ -98,6 +98,7 @@ function App() {
         </section>
         <TechSkill />
         <Skill />
+        <Projects />
         <Footer />
         <div className='w-full h-[30px] bg-gray-950 flex justify-center items-center border-t-1 border-gray-600'>
           <p className='text-[#727272]'>copy 2025</p>

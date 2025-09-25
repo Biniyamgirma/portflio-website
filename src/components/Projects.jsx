@@ -16,7 +16,7 @@ function Projects() {
             <h6 className="text-white">100%</h6>
           </div>
           <div className="mt-2 h-2 w-full rounded-full bg-gray-200">
-            <div className="bg-white-600 h-full rounded-full" style="width: 100%;"></div>
+            <div className="bg-white-600 h-full rounded-full" style={{ width: '100%'}}></div>
           </div>
         </div>
         <div className="mt-4 w-full">
