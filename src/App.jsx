@@ -81,7 +81,7 @@ function App() {
     </div>
           </div>
           <div className="flex space-x-4  h-16 w-full items-center justify-center">
-            <button className="bg-white px-4 py-3 rounded-full new-font-ibm"><a href="pdf/Biniyam-girma-cv.pdf" download={"Biniyam-girma-cv.pdf"} >Download Resume</a></button>
+            <button className="bg-white px-4 py-3 rounded-full new-font-ibm"><a href="https://drive.google.com/file/d/1q7Bzj_DDGhNhCE0KTgs1k4j5CZlwLp90/view?usp=sharing" download={"pdf/Biniyam-girma-cv.pdf"} target='_blank' >Download Resume</a></button>
             <button className="border-2 rounded-full border-white text-white px-4 py-3 new-font-ibm">
               <a href="tel:+251928259867" className='flex justify-center items-center gap-2 '>Contact Me 
                 <span>
@@ -93,9 +93,8 @@ function App() {
             </button>
           </div>
           <Navbar />
-          
         </div>
-        <section id='About' className="min-h-screen bg-gray-950 px-12">
+        <section id='About' className="min-h-screen bg-gray-950 px-12  ">
         <div className="w-full flex justify-center items-center ">
         <img className="max-h-72 object-cover" src="https://images.unsplash.com/photo-1741715661559-6149723ea89a?w=120&dpr=2&h=200&auto=format&fit=crop&q=60&ixid=M3wxMjA3fDB8MXxhbGx8MTR8fHx8fHx8fDE3NTg2OTkwMjh8&ixlib=rb-4.1.0" alt="" />
         </div>
