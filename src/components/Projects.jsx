@@ -5,7 +5,7 @@ function Projects() {
     <section className="flex w-full flex-col items-center bg-gray-950">
   <div className="flex h-auto w-80/100 items-center justify-center">
     <div className="w-full">
-      <button className="my-4 rounded-full bg-[#3939395C] px-4 py-2 text-[#FF9853]">Milestones</button>
+      <button className="my-4 rounded-full bg-[#3939395C] px-4 py-2 text-[#FF9853]">Projects I Had Worked On</button>
       <h4 className="text-4xl font-semibold wrap-break-word text-[#FFFFFF] md:w-70/100">Token Sale Phases & Milestones</h4>
       <div id="project" className="my-8 flex h-auto w-70/100 flex-col">
         <button className="max-w-[120px] rounded-full bg-[#FF9853] px-4 py-2 text-white"><a href="#">Project Link</a></button>
