@@ -81,8 +81,16 @@ function App() {
     </div>
           </div>
           <div className="flex space-x-4  h-16 w-full items-center justify-center">
-            <button className="bg-white px-4 py-3 rounded-full new-font-ibm">Download resume</button>
-            <button className="border-2 rounded-full border-white text-white px-4 py-3 new-font-ibm">Contact Me</button>
+            <button className="bg-white px-4 py-3 rounded-full new-font-ibm"><a href="pdf/Biniyam-girma-cv.pdf" download={"Biniyam-girma-cv.pdf"} >Download Resume</a></button>
+            <button className="border-2 rounded-full border-white text-white px-4 py-3 new-font-ibm">
+              <a href="tel:+251928259867" className='flex justify-center items-center gap-2 '>Contact Me 
+                <span>
+                  <svg className='w-4' viewBox="0 0 24 24" fill="none" >
+                  <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </a>
+            </button>
           </div>
           <Navbar />
           
