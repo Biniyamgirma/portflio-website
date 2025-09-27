@@ -58,7 +58,7 @@ function App() {
           <img src={image} alt="" />
           </div>
         </div>
-        <div className='h-screen flex flex-col bg-gray-950  place-items-center px-12 py-4'>
+        <div className='h-screen flex flex-col bg-gray-950  place-items-center px-12 py-4 relative'>
    <div className='min-w-full flex justify-between items-center '>
         <h1 className='uppercase text-xl text-white new-font'>biniyam girma</h1>
         <div className='bg-[#5F5F5F29] flex justify-center items-center rounded-full'>
@@ -72,8 +72,11 @@ function App() {
             </div>
         </div>
     </div>
+    <h2 className='text-[350px]  z-5 absolute top-2 text-[#717171]/5 blur-sm'>፳፩</h2>
+    <h2 className='text-[350px]  z-5 absolute top-2 left-0 text-[#717171]/10'>፳፩</h2>
+    <h2 className='text-[350px]  z-5 absolute top-2 right-0 text-[#717171]/10'>፳፩</h2>
           <div className="flex w-full h-full justify-center items-center relative">
-            <h1  id='welcome' className='text-5xl font-bold text-gray-100 new-font'>
+            <h1  id='welcome' className='text-5xl z-10 font-bold text-gray-100 new-font'>
             Welcom To My Portfolio
           </h1>
           <div className='w-[260px] new-font flex flex-col space-y-2 text-wrap border-[#292929] absolute bottom-5 right-5 rounded-s-md border-r-2 pr-8'>

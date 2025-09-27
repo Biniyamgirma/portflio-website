@@ -83,7 +83,7 @@ function Skill() {
   <section ref={ref} className="bg-gray-950 w-full h-100 flex flex-col justify-center items-center overflow-x-clip">
   <h1 className="text-white font-bold uppercase text-4xl mb-8">Soft Skills</h1>
   <div className="w-1000 h-32 bg-[#121212] -rotate-4  py-8">
-    <div className="flex items-center justify-center h-full  space-x-4 will-change-transform skill-item">
+    <div className="flex items-center justify-center h-full  space-x-4 will-change-transform skill-item cursor-pointer">
       <span className="text-[#FFFFFF] font-bold text-2xl ml-2">lL</span>
       <span className="text-[#FFFFFF]">
        <svg className="size-8" viewBox="0 0 24 24" fill="none" >
