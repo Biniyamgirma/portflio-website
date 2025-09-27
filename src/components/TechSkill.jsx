@@ -67,15 +67,15 @@ function TechSkill() {
   return (
     <section className="flex h-auto w-full flex-col items-center justify-center bg-gray-950">
   <div className="flex min-w-40/100 flex-col items-center justify-center mt-20">
-    <h4 className="text-4xl font-bold text-white my-8">Technical Skils</h4>
+    <h4 className="text-4xl font-bold text-white my-8 new-font">Technical Skils</h4>
     <div className="h-full w-full">
       <div className="flex w-full items-end justify-between my-4">
         <div className="flex flex-col space-y-2 ">
-          <h2 className="text-[#DFDFDF]">Skills</h2>
-          <p className="text-[#717171]">Frameworks And Programming languages</p>
+          <h2 className="text-[#DFDFDF] new-font-ibm">Skills</h2>
+          <p className="text-[#717171] new-font-ibm">Frameworks And Programming languages</p>
         </div>
         <div>
-          <h2 className="text-[#FF9853]">knowledge(%)</h2>
+          <h2 className="text-[#FF9853] new-font-ibm">knowledge(%)</h2>
         </div>
       </div>
     </div>

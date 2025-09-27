@@ -1,8 +1,15 @@
-import React from 'react'
+import React,{useRef} from 'react'
+import {useGSAP} from 'react-gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 
 function Skill() {
+  const ref = useRef(null);
+  useGSAP(()=>{
+    
+  },{})
   return (
-    <section className="bg-gray-950 w-full h-100 flex flex-col justify-center items-center overflow-x-clip">
+    <section ref={ref} className="bg-gray-950 w-full h-100 flex flex-col justify-center items-center overflow-x-clip">
   <h1 className="text-white font-bold uppercase text-4xl mb-8">Soft Skills</h1>
   <div className="w-1000 h-32 bg-[#121212] -rotate-4  py-8">
     <div className="flex items-center justify-center h-full  space-x-4">

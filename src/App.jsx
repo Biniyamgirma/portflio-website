@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import TechSkill from './components/TechSkill';
 import Footer from './components/Footer';
 import Skill from './components/Skill';
+import image from '/img/img1.png';
 
 function App() {
   const comp = useRef(null);
@@ -54,7 +55,7 @@ function App() {
             </p>
           </div>
           <div className='absolute bottom-1 right-4 w-30/100 h-120 bg-amber-600'>
-          {/* <img src="" alt="" /> */}
+          <img src={image} alt="" />
           </div>
         </div>
         <div className='h-screen flex flex-col bg-gray-950  place-items-center px-12 py-4'>
@@ -76,8 +77,8 @@ function App() {
             Welcom To My Portfolio
           </h1>
           <div className='w-[260px] new-font flex flex-col space-y-2 text-wrap border-[#292929] absolute bottom-5 right-5 rounded-s-md border-r-2 pr-8'>
-        <h1 className="text-lg flex flex-col justify-end items-end text-white new-font-ibm">Design<span>Inspiration…</span> </h1>
-        <p className="flex flex-col w-auto items-end text-[12px] text-[#717171] new-font-ibm"><span>This portfolio's sleek</span> <span> design is the inspired from</span> <span><span className="text-white"><a href="">Onyx Design</a></span> Ethiopia</span> </p>
+        <h1 className="text-lg flex flex-col justify-end items-end text-white new-font-ibm">Web<span>Animation...</span> </h1>
+        <p className="flex flex-col w-auto items-end text-[12px] text-[#717171] new-font-ibm"><span>I also Impliment</span> <span>  Web Animation Using</span> <span><span className="text-white"><a href="">GSAP</a></span> Library</span> </p>
     </div>
           </div>
           <div className="flex space-x-4  h-16 w-full items-center justify-center">
